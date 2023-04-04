@@ -29,12 +29,9 @@ function Hero() {
   return (
     <div
       style={backgroundImageStyle}
-      className="  bg-cover flex justify-center align-middle py-36 px-6 flex-col"
+      className="  bg-cover flex justify-center align-middle py-52 px-6 flex-col"
     >
       <h1 className="font-bold text-white text-3xl ">More Than An Island</h1>
-      <button className="text-white border-2 border-white py-1 px-4 w-3/6 mx-auto my-4 ">
-        Start Journey
-      </button>
     </div>
   );
 }
