@@ -8,7 +8,7 @@ function Navbar() {
   const [openMenu, setOpenMenu] = useState(false); //setOpenMenu" is a function that can be used to update the value of "openMenu". The initial value of "openMenu" is set to false.
   const handleClick = () => setOpenMenu(!openMenu); //This function toggles the value of "openMenu" between true and false using the "setOpenMenu" function.
 
-  const menuClass = openMenu ? "mobileMenu translate-x-full " : "mobileMenu";
+  const menuClass = openMenu ? "mobileMenu  " : "mobileMenu translate-x-full";
   const handleLinkClick = () => setOpenMenu(false);
   return (
     <div className="w-screen px-4 py-1">
