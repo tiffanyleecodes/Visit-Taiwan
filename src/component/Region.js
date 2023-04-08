@@ -17,7 +17,7 @@ function Region() {
         <RegionItem src={North} text="North Taiwan" path="/Destination#north" />
       </div>
       <div className="card">
-        <RegionItem src={Central} text="Centra Taiwan" path="/Destination" />
+        <RegionItem src={Central} text="Central Taiwan" path="/Destination" />
       </div>
       <div className="card">
         <RegionItem src={South} text="South Taiwan" path="/Destination" />

@@ -20,7 +20,7 @@ function Navbar() {
           <MenuIcon />
         </button>
         <nav
-          className={`${menuClass} fixed h-full w-3/5 bg-white  top-0 right-0 flex -translate-x-50 duration-700 justify-between align-middle px-4 text-left py-6 z-10`}
+          className={`${menuClass} fixed h-full w-3/5 bg-white  top-0 right-0 flex  duration-700 justify-between align-middle px-4 text-left py-6 z-10`}
         >
           <ul className="mt-6">
             <Link to="/" onClick={handleLinkClick}>
