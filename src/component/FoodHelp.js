@@ -20,6 +20,7 @@ export const FoodhelpFeatures = [
         <a
           href="https://www.dintaifung.com.tw/eng/store.php"
           target="_blank"
+          rel="noopener noreferrer"
           className="underline hover:text-cyan-700"
         >
           here
